@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Đăng nhập - Đăng ký</title>
+    <link rel="icon" href="./image/5506-200.ico">
+    <link rel="stylesheet" href="./cssFile/dangky.css">
+    
+    </script>
+</head>
+
+<body>
+    <div class="contain">
+
+        <div class="dangKy">
+            <h1 class="dkkh">ĐĂNG KÍ THÀNH VIÊN</h1>
+        </div>
+        
+        <div class="chung">
+            <label for="name">Tên</label>
+            <input type="text" class="input-field" id="name" name="name">
+            <span class="thongBao"></span>
+        </div>
+        <div class="chung">
+            <label for="email">Email</label>
+            <input type="email" class="input-field" id="email" name="email">
+            <span class="thongBao"></span>
+        </div>
+        <div class="chung">
+            <label for="id">Mssv</label>
+            <input type="text" class="input-field" id="id" name="id">
+            <span class="thongBao"></span>
+        </div>
+        <div class="chung">
+            <label for="gt">Giới tính</label>
+            <select name="gt" id="gt">
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+            </select>
+
+        </div>
+        <div class="chung">
+            <label for="st">Sở thích</label>    
+            <form class="cbox">
+                <input type="checkbox" name="me" value="Đọc sách">Đọc sách<br>
+                <input type="checkbox" name="me" value="Du lịch">Du lịch<br>
+                <input type="checkbox" name="me" value="Âm nhạc">Âm nhạc<br>
+                <input type="checkbox" name="me" value="Ẩm thực">Ẩm thực<br>
+                <input type="checkbox" name="me" value="Khác">Khác<br>
+               
+            </form>
+
+        </div>
+
+        <div class="chung">
+            <label for="nation">Quốc gia</label>
+            <select name="gt" id="gt">
+                <option value="vn">Việt Nam</option>
+                <option value="k">Khác</option>
+            </select>
+        </div>
+        <div class="chung">
+            <label for="note">Chú thích</label>
+            <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        </div>
+        <div class="dk">
+            <button style="font-size: 15px;text-align:center;border-radius:20px 20px; background-color: yellow;" id="btnDangKy" onclick="check()">ĐĂNG KÝ</button>
+        </div>
+        <script src="./jsFile/dangnhap_dangky.js"></script>
+    </div>
+</body>
+
+</html>
